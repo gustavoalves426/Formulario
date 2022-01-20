@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" author="Gustavo Alves">
+	<title>Formulario de Suporte</title>
+</head>
+<body>
+	<h1><b>Suporte</b></h1>
+	<form action="coloqueseuemailaqui" method="get">
+		<p><u><i>NOME COMPLETO:</i></u></p> 
+		<input type="tex" name="nome" maxlength="50" size="50">
+		<br>
+		<p><u><i>EMAIL:</i></u></p> 
+		<input type="email" name="email" size="30">
+		<br>
+		<p><u><i>Problema:</i></u></p> 
+		<select name="problema">
+			<option></option>
+			<option>Erro No Sistema</option>
+			<option>Falha no Login</option>
+			<option>Duvidas</option>
+			<option>Quero Contratar</option>
+			<option>Orçamento</option>
+		</select>
+		<br>
+		<p><u><i>Descreva seu Problema</i><u></p>
+		<textarea name="mensagem" rows="10" cols="100"></textarea>
+		<br>
+		<br>
+		<input type="submit" name="botaoenviar" value="ENVIAR" style="background: transparent; color: red; border-color: red;">
+		<input type="reset" name="limpar" value="LIMPAR" style="background: transparent; color: blue; border-color: blue;">
+	</form>
+</body>
+</html>
